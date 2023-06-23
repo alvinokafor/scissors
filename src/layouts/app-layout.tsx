@@ -6,7 +6,7 @@ import Footer from "@/components/partials/footer";
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <BaseLayout>
-      <section className="mx-auto max-w-xs sm:max-w-md lg:max-w-6xl">
+      <section className="mx-auto max-w-xs sm:max-w-md lg:max-w-5xl">
         <Header />
         {children}
         <Footer />
